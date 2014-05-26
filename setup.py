@@ -25,8 +25,8 @@ setup(
         'pyPdf'
     ],
     entry_points = {
-        'console_scripts': ['quasipdf = quasipdf:main'],
-    },
+        'console_scripts': ['quasipdf = quasipdf:main'],
+    },
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',

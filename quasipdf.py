@@ -13,8 +13,9 @@ def main():
     currentFileName = ''
     outputFileWriter = PdfFileWriter()
     
-
-
+    if len(sys.argv) == 1:
+        print "missing arguments"
+        sys.exit(1)
 
     for i, item in enumerate(sys.argv):
         print item
